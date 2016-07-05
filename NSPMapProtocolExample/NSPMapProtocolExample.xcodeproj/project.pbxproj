@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B20F16A1D2BF7560056135A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20F1691D2BF7560056135A /* main.m */; };
+		1B20F16D1D2BF7560056135A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20F16C1D2BF7560056135A /* AppDelegate.m */; };
+		1B20F17A1D2BF7A40056135A /* NSPMapProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20F1791D2BF7A40056135A /* NSPMapProtocol.m */; };
+		1B20F17B1D2BFBBF0056135A /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B20F16E1D2BF7560056135A /* application.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B20F1651D2BF7560056135A /* NSPMapProtocolExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSPMapProtocolExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B20F1691D2BF7560056135A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B20F16B1D2BF7560056135A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B20F16C1D2BF7560056135A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B20F16E1D2BF7560056135A /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		1B20F1711D2BF7560056135A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B20F1781D2BF7A40056135A /* NSPMapProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPMapProtocol.h; sourceTree = "<group>"; };
+		1B20F1791D2BF7A40056135A /* NSPMapProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPMapProtocol.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B20F1621D2BF7560056135A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B20F15C1D2BF7560056135A = {
+			isa = PBXGroup;
+			children = (
+				1B20F1771D2BF77C0056135A /* NSPMapProtocol */,
+				1B20F1671D2BF7560056135A /* NSPMapProtocolExample */,
+				1B20F1661D2BF7560056135A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B20F1661D2BF7560056135A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B20F1651D2BF7560056135A /* NSPMapProtocolExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B20F1671D2BF7560056135A /* NSPMapProtocolExample */ = {
+			isa = PBXGroup;
+			children = (
+				1B20F17C1D2BFC080056135A /* javascript */,
+				1B20F16B1D2BF7560056135A /* AppDelegate.h */,
+				1B20F16C1D2BF7560056135A /* AppDelegate.m */,
+				1B20F1711D2BF7560056135A /* Info.plist */,
+				1B20F1681D2BF7560056135A /* Supporting Files */,
+			);
+			name = NSPMapProtocolExample;
+			sourceTree = SOURCE_ROOT;
+		};
+		1B20F1681D2BF7560056135A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B20F1691D2BF7560056135A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B20F1771D2BF77C0056135A /* NSPMapProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				1B20F1781D2BF7A40056135A /* NSPMapProtocol.h */,
+				1B20F1791D2BF7A40056135A /* NSPMapProtocol.m */,
+			);
+			name = NSPMapProtocol;
+			path = ../NSPMapProtocol;
+			sourceTree = SOURCE_ROOT;
+		};
+		1B20F17C1D2BFC080056135A /* javascript */ = {
+			isa = PBXGroup;
+			children = (
+				1B20F16E1D2BF7560056135A /* application.js */,
+			);
+			name = javascript;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B20F1641D2BF7560056135A /* NSPMapProtocolExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B20F1741D2BF7560056135A /* Build configuration list for PBXNativeTarget "NSPMapProtocolExample" */;
+			buildPhases = (
+				1B20F1611D2BF7560056135A /* Sources */,
+				1B20F1621D2BF7560056135A /* Frameworks */,
+				1B20F1631D2BF7560056135A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSPMapProtocolExample;
+			productName = NSPMapProtocolExample;
+			productReference = 1B20F1651D2BF7560056135A /* NSPMapProtocolExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B20F15D1D2BF7560056135A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Neosperience SpA";
+				TargetAttributes = {
+					1B20F1641D2BF7560056135A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B20F1601D2BF7560056135A /* Build configuration list for PBXProject "NSPMapProtocolExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B20F15C1D2BF7560056135A;
+			productRefGroup = 1B20F1661D2BF7560056135A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B20F1641D2BF7560056135A /* NSPMapProtocolExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B20F1631D2BF7560056135A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B20F17B1D2BFBBF0056135A /* application.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B20F1611D2BF7560056135A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B20F17A1D2BF7A40056135A /* NSPMapProtocol.m in Sources */,
+				1B20F16D1D2BF7560056135A /* AppDelegate.m in Sources */,
+				1B20F16A1D2BF7560056135A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B20F1721D2BF7560056135A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		1B20F1731D2BF7560056135A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B20F1751D2BF7560056135A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neosperience.NSPMapProtocolExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B20F1761D2BF7560056135A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neosperience.NSPMapProtocolExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B20F1601D2BF7560056135A /* Build configuration list for PBXProject "NSPMapProtocolExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B20F1721D2BF7560056135A /* Debug */,
+				1B20F1731D2BF7560056135A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B20F1741D2BF7560056135A /* Build configuration list for PBXNativeTarget "NSPMapProtocolExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B20F1751D2BF7560056135A /* Debug */,
+				1B20F1761D2BF7560056135A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B20F15D1D2BF7560056135A /* Project object */;
+}
